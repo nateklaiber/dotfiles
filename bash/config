@@ -1,5 +1,7 @@
 PROMPT_COMMAND='DIR=`pwd|sed -e "s!$HOME!~!"`; if [ ${#DIR} -gt 30 ]; then CurDir=${DIR:0:12}...${DIR:${#DIR}-15}; else CurDir=$DIR; fi'
-PS1="[\$CurDir] \$ "
+#PS1="[\$CurDir] \$ "
+
+PS1="\u:\w\n$ "
 
 [[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
 [[ -r $HOME./rvm/scripts/completion ]] && source $HOME/.rvm/scripts/completion
