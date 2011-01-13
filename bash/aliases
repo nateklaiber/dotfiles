@@ -1,0 +1,49 @@
+# Changing Directories
+alias ..="cd .."
+alias cdd="cd -"
+alias ...="cd ../.."
+
+# General
+alias h="history"
+alias e="mvim $1"
+alias mate="mvim $1"
+alias ll="ls -alGh"
+
+# MySQL
+alias fix_mysql_w3="sudo ln -s /tmp/mysql.sock /opt/local/var/run/mysql5/mysqld.sock"
+alias fix_mysql="sudo ln -s /opt/local/var/run/mysql5/mysqld.sock /tmp/mysql.sock"
+alias sql='mysql -uroot'
+
+# Apache
+alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
+
+# Git
+alias gs="git status"
+alias gp="git pull"
+
+# Within3
+alias reset_br="rake w3:db:setup && rake w3:indexes:reset"
+alias w3_db_changes='git diff --name-only $1 $2 | grep -E "^db"'
+alias clr='rake w3:cache:clear && touch tmp/restart.txt'
+
+# Rails
+alias ss="script/server"
+alias sc="script/console"
+alias cons="script/console"
+alias db="script/dbconsole"
+alias spr='script/passenger_restarter'
+
+# Shortcuts
+alias d='cd ~/desktop'
+alias www='cd /www'
+alias ccg="cd /www/camp_club_girls"
+alias sonnax="cd /www/sonnax"
+alias onebox="cd /www/onebox"
+alias acle="cd /www/advance2030"
+alias gomedia="cd /www/gomedia-frontend"
+alias transtec="cd /www/transtec.com"
+alias rockhill="cd /www/rockhill"
+alias rh="cd /www/rockhill"
+alias br='cd /www/big_red'
+alias w3='cd /www/big_red'
+alias w3p='cd /www/within3_public'
