@@ -1,3 +1,7 @@
+# Opening Files
+alias ff="open -a /Applications/Firefox.app"
+alias o="open"
+
 # Changing Directories
 alias ..="cd .."
 alias cdd="cd -"
