@@ -2,6 +2,10 @@
 alias ff="open -a /Applications/Firefox.app"
 alias o="open"
 
+# Commands
+alias tu="top -o cpu"
+alias tm="top -0 vstat"
+
 # Changing Directories
 alias ..="cd .."
 alias cdd="cd -"
