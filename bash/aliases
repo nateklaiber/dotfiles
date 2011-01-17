@@ -4,7 +4,7 @@ alias o="open"
 
 # Commands
 alias tu="top -o cpu"
-alias tm="top -0 vstat"
+alias tm="top -o vstat"
 
 # Changing Directories
 alias ..="cd .."
