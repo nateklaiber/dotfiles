@@ -28,6 +28,7 @@ alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
 # Git
 alias gs="git status"
 alias gp="git pull"
+alias gf="git fetch"
 
 # Within3
 alias reset_br="rake w3:db:setup && rake w3:indexes:reset"
