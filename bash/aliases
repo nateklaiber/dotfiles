@@ -56,3 +56,4 @@ alias rh="cd /www/rockhill"
 alias br='cd /www/big_red'
 alias w3='cd /www/big_red'
 alias w3p='cd /www/within3_public'
+alias npn="cd /www/npnaz"
