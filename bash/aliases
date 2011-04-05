@@ -48,6 +48,7 @@ alias spr='script/passenger_restarter'
 
 # Shortcuts
 alias d='cd ~/desktop'
+alias mc="cd /www/mullet_cabinet"
 alias www='cd /www'
 alias ccg="cd /www/camp_club_girls"
 alias sonnax="cd /www/sonnax"
