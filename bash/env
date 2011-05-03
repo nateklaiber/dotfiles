@@ -4,5 +4,5 @@ export EDITOR="/Users/nateklaiber/bin/vim"
 
 CDPATH="/users/nateklaiber/sites:~/Desktop"
 
-PATH="~/mybin/scripts:/opt/local/lib/ruby/gems:/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/opt/local/lib/postgresql83/bin:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/jmeter/bin:/usr/local/mysql/bin:$PATH"
+PATH="~/mybin:~/mybin/scripts:/opt/local/lib/ruby/gems:/opt/local/bin:/opt/local/sbin:/opt/local/lib/postgresql84/bin:/opt/local/lib/postgresql83/bin:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/jmeter/bin:/usr/local/mysql/bin:$PATH"
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
