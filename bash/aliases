@@ -20,6 +20,7 @@ alias h="history"
 alias e="mvim $1"
 alias mate="mvim $1"
 alias ll="ls -alGh"
+alias be="bundle exec $1"
 
 # MySQL
 alias fix_mysql_w3="sudo ln -s /tmp/mysql.sock /opt/local/var/run/mysql5/mysqld.sock"
