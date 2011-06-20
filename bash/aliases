@@ -36,7 +36,7 @@ alias gp="git pull"
 alias gf="git fetch"
 
 # Within3
-alias reset_br="rake w3:db:setup && rake w3:indexes:reset"
+alias reset_br="rake db:drop && rake db:create && rake db:migrate && rake db:load"
 alias w3_db_changes='git diff --name-only $1 $2 | grep -E "^db"'
 alias clr='rake w3:cache:clear && touch tmp/restart.txt'
 
@@ -60,6 +60,6 @@ alias transtec="cd /www/transtec.com"
 alias rhl="cd /www/rockhill-landscaping"
 alias rh="cd /www/rockhill-landscaping"
 alias br='cd /www/big_red'
-alias w3='cd /www/big_red'
+alias w3="cd /www/within3/big_red"
 alias w3p='cd /www/within3_public'
 alias npn="cd /www/npnaz"
