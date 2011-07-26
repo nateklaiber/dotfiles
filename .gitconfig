@@ -29,3 +29,5 @@
 [merge]
   #tool = p4merge # This will be the default merge tool invoked by git mergetool.
   tool = opendiff
+[github]
+	user = nateklaiber
