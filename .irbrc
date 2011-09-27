@@ -55,3 +55,5 @@ end
 def pbcopy(string)
   `echo "#{string}" | pbcopy`
 end
+
+alias q exit

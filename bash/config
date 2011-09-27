@@ -7,6 +7,20 @@ e() {
   $EDITOR -g $*
 }
 
+app.binstubs() {
+  bundle install --binstubs
+}
+
+app.binstub_path() {
+  export PATH="./bin:$PATH"
+  echo $PATH
+}
+
+app.bundle_with_binstubs() {
+  app.binstubs
+  app.binstub_path
+}
+
 function prr {
   bundle exec rake routes | fgrep :action | \
   \
