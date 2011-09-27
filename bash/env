@@ -1,5 +1,6 @@
 export ARCHFLAGS="-arch xi386"
 export EDITOR="/Users/nateklaiber/bin/vim"
+export CC=/usr/bin/gcc-4.2
 #export EDITOR="/usr/bin/vim"
 
 CDPATH="/users/nateklaiber/sites:~/Desktop"
@@ -9,6 +10,6 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 export EC2_HOME=~/.ec2
 export PATH=$PATH:$EC2_HOME/bin
-export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+#export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
 #export EC2_CERT=`ls $EC2_HOME/cert-*.pem
-export JAVA_HOME=/usr/bin/java
+#export JAVA_HOME=/usr/bin/java
