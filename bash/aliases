@@ -1,5 +1,7 @@
 # Opening Files
 alias ff="open -a /Applications/Firefox.app"
+alias saf="open -a /Applications/Safari.app"
+alias chr="open -a /Applications/Chrome.app"
 alias o="open"
 
 #Memcached
@@ -49,17 +51,6 @@ alias spr='script/passenger_restarter'
 
 # Shortcuts
 alias d='cd ~/desktop'
-alias mc="cd /www/mullet_cabinet"
-alias www='cd /www'
-alias ccg="cd /www/camp_club_girls"
-alias sonnax="cd /www/sonnax"
-alias onebox="cd /www/onebox"
-alias acle="cd /www/advance2030"
-alias gomedia="cd /www/gomedia-frontend"
-alias transtec="cd /www/transtec.com"
-alias rhl="cd /www/rockhill-landscaping"
-alias rh="cd /www/rockhill-landscaping"
-alias br='cd /www/big_red'
-alias w3='cd /www/big_red'
-alias w3p='cd /www/within3_public'
-alias npn="cd /www/npnaz"
+alias www='cd ~/Sites'
+alias br='cd ~/Sites/big_red'
+alias w3='cd ~/Sites/big_red'
