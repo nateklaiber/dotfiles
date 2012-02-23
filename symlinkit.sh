@@ -7,6 +7,14 @@ function relink() {
   ln -s $2 $1
 }
 
-  cd ~
+cd ~
 
-  relink .bashrc ~/mybin/dotfiles/bashrc
+relink .bashrc ~/mybin/dotfiles/.bashrc
+relink .caprc ~/mybin/dotfiles/.caprc
+relink .gemrc ~/mybin/dotfiles/.gemrc
+relink .gitconfig ~/mybin/dotfiles/.gitconfig
+relink .gitignore ~/mybin/dotfiles/.gitignore
+relink .irbrc ~/mybin/dotfiles/.irbrc
+relink .rspec ~/mybin/dotfiles/spec.opts
+relink .zshrc ~/mybin/dotfiles/.zshrc
+relink spec.opts ~/mybin/dotfiles/spec.opts
