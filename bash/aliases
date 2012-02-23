@@ -8,6 +8,12 @@ alias o="open"
 alias memcached_start="sudo launchctl load /Library/LaunchDaemons/org.macports.memcached.plist"
 alias memcached_stop="sudo launchctl unload /Library/LaunchDaemons/org.macports.memcached.plist"
 
+alias memcached.start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
+alias memcached.stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.memcached.plist"
+
+alias mysql.start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist"
+alias mysql.stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist"
+
 # Commands
 alias tu="top -o cpu"
 alias tm="top -o vstat"
@@ -25,9 +31,7 @@ alias ll="ls -alGh"
 alias be="bundle exec $1"
 
 # MySQL
-alias fix_mysql_w3="sudo ln -s /tmp/mysql.sock /opt/local/var/run/mysql5/mysqld.sock"
-alias fix_mysql="sudo ln -s /opt/local/var/run/mysql5/mysqld.sock /tmp/mysql.sock"
-alias sql='mysql -uroot'
+alias sql='mysql -uroot -p'
 
 # Apache
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
@@ -52,5 +56,5 @@ alias spr='script/passenger_restarter'
 # Shortcuts
 alias d='cd ~/desktop'
 alias www='cd ~/Sites'
-alias br='cd ~/Sites/big_red'
-alias w3='cd ~/Sites/big_red'
+alias br='cd ~/Sites/within3/bigred'
+alias w3='cd ~/Sites/within3/bigred'
