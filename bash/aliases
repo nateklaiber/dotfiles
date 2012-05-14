@@ -2,6 +2,8 @@
 alias ff="open -a /Applications/Firefox.app"
 alias o="open"
 
+alias rspec="time rspec"
+
 #Memcached
 alias memcached_start="sudo launchctl load /Library/LaunchDaemons/org.macports.memcached.plist"
 alias memcached_stop="sudo launchctl unload /Library/LaunchDaemons/org.macports.memcached.plist"
