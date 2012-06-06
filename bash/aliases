@@ -4,6 +4,8 @@ alias saf="open -a /Applications/Safari.app"
 alias chr="open -a /Applications/Chrome.app"
 alias o="open"
 
+alias rspec="time rspec"
+
 #Memcached
 alias memcached_start="sudo launchctl load /Library/LaunchDaemons/org.macports.memcached.plist"
 alias memcached_stop="sudo launchctl unload /Library/LaunchDaemons/org.macports.memcached.plist"
@@ -13,6 +15,9 @@ alias memcached.stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.memc
 
 alias mysql.start="launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist"
 alias mysql.stop="launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist"
+
+alias apache.start="sudo apachectl start"
+alias apache.stop="sudo apachectl stop"
 
 # Commands
 alias tu="top -o cpu"
