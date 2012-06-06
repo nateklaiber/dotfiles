@@ -4,14 +4,14 @@ IRB.conf[:USE_READLINE] = true
 IRB.conf[:SAVE_HISTORY] = 1000
 IRB.conf[:HISTORY_FILE] = "#{ENV['HOME']}/.irb_history"
 IRB.conf[:PROMPT_MODE] = :SIMPLE
- 
+
 require 'irb/completion'
 require 'irb/ext/save-history'
 require 'pp'
- 
+
 # add ~/.ruby to the library search path
 #$LOAD_PATH << File.expand_path('~/.ruby')
- 
+
 # load rubygems and wirble
 require 'rubygems' rescue nil
 begin
@@ -37,7 +37,7 @@ class Object
     end
     puts `ri '#{method}'`
   end
-  
+
   def non_class_methods
     self.methods - Class.methods
   end
@@ -54,6 +54,10 @@ end
 
 def pbcopy(string)
   `echo "#{string}" | pbcopy`
+end
+
+if defined?(Rails)
+  ActiveRecord::Base.logger = Logger.new(STDOUT)
 end
 
 alias q exit
