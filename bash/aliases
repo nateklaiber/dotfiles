@@ -65,3 +65,4 @@ alias br='cd /www/big_red'
 alias w3="cd /www/within3/big_red"
 alias w3p='cd /www/within3_public'
 alias npn="cd /www/npnaz"
+alias km="cd /www/kissmetrics"
