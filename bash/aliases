@@ -46,20 +46,7 @@ alias gs="git status"
 alias gp="git pull"
 alias gf="git fetch"
 
-# Within3
-alias reset_br="rake w3:db:setup && rake w3:indexes:reset"
-alias w3_db_changes='git diff --name-only $1 $2 | grep -E "^db"'
-alias clr='rake w3:cache:clear && touch tmp/restart.txt'
-
-# Rails
-alias ss="script/server"
-alias sc="script/console"
-alias cons="script/console"
-alias db="script/dbconsole"
-alias spr='script/passenger_restarter'
-
 # Shortcuts
 alias d='cd ~/desktop'
 alias www='cd ~/Sites'
-alias br='cd ~/Sites/within3/bigred'
-alias w3='cd ~/Sites/within3/bigred'
+alias km='cd ~/Sites/km/legacy'
