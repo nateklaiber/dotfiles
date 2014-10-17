@@ -31,3 +31,5 @@
   tool = opendiff
 [github]
 	user = nateklaiber
+[push]
+	default = simple
