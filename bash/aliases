@@ -42,11 +42,24 @@ alias sql='mysql -uroot -p'
 alias apache2ctl='sudo /opt/local/apache2/bin/apachectl'
 
 # Git
-alias gs="git status"
 alias gp="git pull"
 alias gf="git fetch"
+alias gs='git status '
+alias ga='git add '
+alias gb='git branch '
+alias gc='git commit'
+alias gd='git diff'
+alias go='git checkout '
+alias gk='gitk --all&'
+alias gx='gitx --all'
+
+alias got='git '
+alias get='git '
 
 # Shortcuts
 alias d='cd ~/desktop'
 alias www='cd ~/Sites'
 alias km='cd ~/Sites/km/legacy'
+alias rfl='cd ~/Sites/ralston/field_lab'
+alias cn='cd ~/Sites/core-nutrition/CORE'
+alias cne='cd ~/Sites/core-nutrition/events'

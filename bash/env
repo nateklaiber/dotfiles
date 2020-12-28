@@ -8,8 +8,14 @@ CDPATH="/users/nateklaiber/sites:~/Desktop"
 
 export PATH="~/mybin:~/mybin/scripts:/usr/local/bin:/usr/local/sbin:/bin:/sbin:/usr/bin:/usr/sbin:$PATH"
 
-export EC2_HOME=~/.ec2
-export PATH=$PATH:$EC2_HOME/bin
-export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+export LDFLAGS="-L/usr/local/opt/zlib/lib"
+export CPPFLAGS="-I/usr/local/opt/zlib/include"
+export PKG_CONFIG_PATH="/usr/local/opt/zlib/lib/pkgconfig"
+
+#export EC2_HOME=~/.ec2
+#export PATH=$PATH:$EC2_HOME/bin
+#export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
 #export EC2_CERT=`ls $EC2_HOME/cert-*.pem
-export JAVA_HOME=/usr/bin/java
+#export JAVA_HOME=/usr/bin/java
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
